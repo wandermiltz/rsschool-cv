@@ -1,4 +1,4 @@
-# **Olga Berezka** 
+# **Olga Berezka** :wave:
 
 ## Specialization: 
 QA Automation (E2E, API, UI)
@@ -29,3 +29,9 @@ Besides RS Scholl, I'm on the well-known courses:
 
 There is the project on Swift in my GitHub: 
 :point_right: https://github.com/wandermiltz/Hangman_for_iPad
+
+## Contact Info:
+* Telegram: @wandermiltz
+* Discord: Olga Berezka#4805
+* email: koltsovaolga5@gmail.com
+* tel: +7 (995) 996-50-66
