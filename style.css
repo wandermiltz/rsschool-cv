@@ -9,7 +9,7 @@ body {
 	font-style: normal;
 	font-weight: 300;
 	font-size: 16px;
-	line-height: 28px;
+	line-height: 32px;
 	color: #6d6c6c;
 	min-height: 100vh;
 	display: flex;
@@ -30,13 +30,14 @@ body {
 .column-right {
 	background-color: #fff;
 	width: 60%;
-	padding: 0 250px 0 70px;
+	padding: 0 230px 0 50px;
 }
 
 .column-left {
 	background-color: #f9f7f9;
 	width: 40%;
-	padding: 0 30px 0 70px;
+	padding: 0 60px 0 50px;
+	line-height: 38px;
 }
 
 .header {
@@ -125,7 +126,6 @@ body {
 }
 
 .sub-section {
-	margin-top: 15px;
 	margin-bottom: 15px;
 }
 
@@ -144,7 +144,7 @@ body {
 	padding: 0 50px 0 0;
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 80px;
+	line-height: 70px;
 	color: #6d6c6c;
 }
 
@@ -165,4 +165,15 @@ body {
 
 html {
 	scroll-behavior: smooth;
+}
+
+.contact-container {
+	display: flex;
+	align-items: center;
+}
+
+.contact-icon {
+	margin-right: 20px;
+	width: 25px;
+	height: 25px;
 }
