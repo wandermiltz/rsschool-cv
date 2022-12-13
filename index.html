@@ -9,7 +9,6 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;300;500&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -18,51 +17,37 @@
 			<div class="container">
 				<nav class="nav">
 					<ul class="nav-list">
-
-						<li><a href="#work_experience" class="nav-item link">Work Experience</a></li>
-
-						<li><a href="#personal_responsibilities" class="nav-item link">Personal Responsibilities</a>
-						</li>
-						<li><a href="#languages" class="nav-item link">Languages</a></li>
-
-						<li><a href="#education" class="nav-item link">Education</a></li>
-
-						<li><a href="#hard_skills" class="nav-item link">Hard Skills</a></li>
-
-						<li><a href="#contacts" class="nav-item link">Contacts</a></li>
-
-						<li><a href="#about_me" class="nav-item link">About me</a></li>
-
+						<li><a href="#work_experience" class="nav-link">Work Experience</a></li>
+						<li><a href="#personal_responsibilities" class="nav-link">Personal Responsibilities</a></li>
+						<li><a href="#languages" class="nav-link">Languages</a></li>
+						<li><a href="#education" class="nav-link">Education</a></li>
+						<li><a href="#hard_skills" class="nav-link">Hard Skills</a></li>
+						<li><a href="#contacts" class="nav-link">Contacts</a></li>
+						<li><a href="#about_me" class="nav-link">About me</a></li>
 					</ul>
 				</nav>
-
 			</div>
 		</header>
-		<main class="main main-container">
-			<div class="container">
+		<main class="main">
+			<div class="container main-container">
 				<div class="column-left">
+					<div class="photo-container">
+						<img class="round-border-photo" src="assets/my_photo_cv.jpg" alt="my photo" width="300" hight="300">
+					</div>
 
-					<section class="section">
-						<h1 class="profile-title">Olga Berezka</h1>
-						<h2 class="profile-subtitle">Web-developer, QA Automation Engineer</h2>
-						<div>
-							<img class="round" src="assets/my_photo_cv.jpg" alt="my photo" width="200" hight="200">
-						</div>
-					</section>
 					<section class="section" id="contacts">
 						<h2 class="section-title">Contacts</h2>
 						<ul class="list list-non-bullet">
-							<li><img src="assets/telegram.svg" alt="telegram_icon" width="33" hight="33">
-								<a class="contact-link" href="https://t.me/wandermiltz" target="_blank">@wandermiltz</a>
+							<li><img src="assets/telegram.svg" alt="telegram_icon" width="25" hight="25">
+								<a class="link" href="https://t.me/wandermiltz" target="_blank">@wandermiltz</a>
 							</li>
-							<li><img src="assets/discord.svg" alt="discord_icon" width="38" hight="38">
-								<a class="contact-link" href="https://discord.com/channels/@Olga Berezka#4805" target="_blank">
+							<li><img src="assets/discord.svg" alt="discord_icon" width="28" hight="28">
+								<a class="link" href="https://discord.com/channels/@Olga Berezka#4805" target="_blank">
 									@OlgaBerezka#4805</a>
 							</li>
-							<li><img src="assets/mail.svg" alt="mail_icon">koltsovaolga5@gmail.com</li>
-							<li><img src="assets/location.svg" alt="location_icon">Porto, Portugal</li>
+							<li><img src="assets/mail.svg" alt="mail_icon" width="25" hight="25">koltsovaolga5@gmail.com</li>
+							<li><img src=" assets/location.svg" alt="location_icon" width="25" hight="25">Porto, Portugal</li>
 						</ul>
-
 					</section>
 					<section class="section" id="hard_skills">
 						<h2 class="section-title">Hard Skills</h2>
@@ -83,17 +68,14 @@
 							<li><span class="text-bold-pink">Russian</span> Native</li>
 						</ul>
 					</section>
-					<section class="section" id="education">
-						<h2 class="section-title">Education</h2>
-						<ul class="list list-non-bullet">
-							<li>
-								Saint-Petersburg State University of Industrial Technologies and Design, Engineer
-							</li>
-						</ul>
-					</section>
-				</div>
 
-				<div class=" column-right">
+				</div>
+				<div class="column-right">
+					<section class="section profile-container">
+						<h1 class="profile-title">Olga Berezka</h1>
+						<h2 class="profile-subtitle">Web-developer, QA Automation Engineer</h2>
+
+					</section>
 					<section class="section" id="about_me">
 						<h2 class="section-title">About me</h2>
 						<p>I’m a QA Automation engineer with 3 years of experience using Cypress JS framework. I
@@ -103,54 +85,92 @@
 					<section class="section" id="personal_responsibilities">
 						<h2 class="section-title">Personal Responsibilities</h2>
 						<ul class="list">
-							<li>Writing and maintaining automated E2E tests and API tests using JavaScript</li>
+							<li>Writing and maintaining automated tests using JavaScript</li>
 							<li>Performing integration testing of the API services</li>
 							<li>Setting up CI for test runs</li>
 							<li>Setting up automated reporting of test run executions</li>
-							<li>Creation of Test Strategies and Test Plans</li>
+							<li>Test Strategies and Test Plans creation</li>
 							<li>Writing Test Cases for new features</li>
 							<li>Performing full system regression testing</li>
 							<li>Working with DB - seeding and retrieving test data using SQL</li>
-							<li>Localisation of defects by log analysis</li>
 							<li>Performing business requirements analysis</li>
-							<li>Investigation of issues reported by users</li>
-							<li>Writing tech specifications of the features</li>
+							<li>Writing tech specifications</li>
 							<li>Rewriting legacy automated tests</li>
 							<li>Performing cross-reviews</li>
 							<li>Collaboration and sharing knowledge with development team</li>
 							<li>QA team management</li>
 							<li>Interviewing candidates</li>
 						</ul>
-
 					</section>
-
 					<section class="section" id="work_experience">
 						<h2 class="section-title">Work Experience</h2>
-						<p class="text-bold-green">Noveo, February 2020 – Present</p>
-						<p class="text-bold-pink work-item">QA Automation Lead (Cypress JS)</p>
-						<p class="work-item">Projects:</p>
-						<p class="work-item">Web application for the marketing service. ​​System for collecting, moderating, and
-							publishing
-							reviews
-							from
-							consumers.</p>
-						<p class="work-item">Web application for the telemedicine service. Web modules for the system of remote
-							health
-							monitoring.
-							Microservice-based
-							architecture</p>
-						<p class="work-item">Web application for the IIoT system. The dashboard for the industrial control networks
-							system.
-						</p>
+						<p class="text-bold-pink">Noveo, February 2020 – Present</p>
+						<p class="text-bold-pink">QA Automation Lead (Cypress JS)</p>
+						<div class="sub-section">
+							<span class="text-bold-green">Projects</span>
+							<ul class="list">
+								<li>Web application for the marketing service</li>
+								<li>Web application for the telemedicine service</li>
+								<li>Web application for the IIoT system</li>
+							</ul>
+						</div>
 
-						<p class="text-bold-green">Arcadia, September 2018 – January 2020</p>
-						<p class="text-bold-pink work-item">QA Engineer</p>
+						<p class="text-bold-pink">Arcadia, September 2018 – January 2020</p>
+						<p class="text-bold-pink">QA Engineer</p>
+						<div class="sub-section">
+							<span class="text-bold-green">Project</span>
+							<ul class="list">
+								<li>Web application for the airline company</li>
+							</ul>
+						</div>
+					</section>
+					<section class="section" id="education">
+						<h2 class="section-title">Education</h2>
 
-						<p class="work-item">Project: Web application for the airline company. Booking system for end-users to
-							search
-							and buy
-							airline tickets
-						</p>
+						<ul class="list list-non-bullet">
+							<div class="sub-section">
+								<li><span class="text-bold-green">Projects</span></li>
+								<ul class="list">
+									<li><a class="link" href="https://wandermiltz.github.io/rsschool-cv/">GitHub: rsschool-CV</a></li>
+									<li><a class="link" href="https://github.com/wandermiltz/sedona">GitHub: sedona-hotels</a></li>
+								</ul>
+							</div>
+							<div class="sub-section">
+								<li><span class="text-bold-green">Courses</span></li>
+								<ul class="list">
+									<li><a class="link" href="https://rs.school/js-stage0/">RS School: JavaScript/Front-end. Stage 0
+											(2022)</a>
+									</li>
+
+									<li><a class="link" href="https://www.udemy.com/course/javascript-for-qa-engineers-and-sdets/">Udemy:
+											JavaScript
+											for QA
+											Engineers and SDETs (2020)</a></li>
+									<li><a class="link" href="https://Cypress: Web Automation Testing from Zero to Hero">Udemy: Cypress:
+											Web
+											Automation Testing from Zero to Hero (2019)</a></li>
+									<li><a class="link"
+											href="https://testautomationu.applitools.com/learningpaths.html?id=web-ui-javascript-path">Test
+											Automation University: Web UI JavaScript Path (2019)</a></li>
+
+									<li><a class="link" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy: HTML и CSS
+											(2016)</a>
+
+									</li>
+								</ul>
+							</div>
+						</ul>
+						<ul class="list list-non-bullet">
+							<div class="sub-section">
+								<li><span class="text-bold-green">Higher Education </span></li>
+								<ul class="list list-non-bullet">
+									<li>
+										Saint-Petersburg State University of Industrial
+										Technologies and Design, Engineer (2007-2012)
+									</li>
+								</ul>
+							</div>
+						</ul>
 
 					</section>
 				</div>
@@ -159,15 +179,13 @@
 		<footer class="footer">
 			<div class="container">
 				<ul class="footer-list">
-					<li><a class="footer-item link" href="https://rs.school/js/" target="_blank"> <img
-								src="assets/rs_school_js.svg" alt="rs_school" width="80" hight="80"> course
-						</a></li>
-					<li><a class="footer-item link" href="https://github.com/wandermiltz" target="_blank">
-							<img src="assets/github.svg" alt="github" width="30" hight="30">My GitHub
-						</a></li>
-					<li><span class="footer-item">&#64;2022</span></li>
+					<li><a class="footer-link link" href="https://rs.school/js/" target="_blank"> <img
+								src="assets/rs_school_js.svg" alt="rs_school" width="80" hight="80"> course</a></li>
+					<li><a class="footer-link link" href="https://github.com/wandermiltz" target="_blank">
+							My GitHub
+							<img src="assets/github.svg" alt="github" width="30" hight="30"></a></li>
+					<li><span>&#64;2022</span></li>
 				</ul>
-
 			</div>
 		</footer>
 	</div>

@@ -22,28 +22,25 @@ body {
 	margin: 0 auto;
 }
 
-.header {
-	border: 1px solid red;
-	background-color: #dcdfda
-}
-
-.main {
-	border: 1px solid red;
-}
-
 .main-container {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.section {
-	width: 50%;
+.column-right {
+	background-color: #fff;
+	width: 60%;
+	padding: 0 250px 0 70px;
 }
 
-@media (max-width: 768px) {
-	.section {
-		width: 100%;
-	}
+.column-left {
+	background-color: #f9f7f9;
+	width: 40%;
+	padding: 0 30px 0 70px;
+}
+
+.header {
+	background-color: #dcdfda
 }
 
 .nav-list {
@@ -53,18 +50,19 @@ body {
 	align-items: center;
 }
 
-.nav-item {
+.nav-link {
 	padding: 0 20px;
-	line-height: 50px;
+	line-height: 70px;
 	font-weight: 400;
 	font-size: 14px;
 	color: #6d6c6c;
 	text-transform: uppercase;
-}
-
-.link {
 	text-decoration: none;
 	transition: .3s;
+}
+
+.nav-link:hover {
+	color: #ffffff
 }
 
 .list {
@@ -75,18 +73,25 @@ body {
 	list-style: none;
 }
 
-.link:hover {
-	color: #ffffff
-}
-
-.contact-link {
+.link {
 	color: #6d6c6c;
 	text-decoration: none;
 	transition: .3s;
 }
 
-.contact-link:hover {
+.link:hover {
 	text-decoration: underline;
+	color: #c09e7e
+}
+
+.photo-container {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.profile-container {
+	margin-top: 50px;
+	margin-bottom: 20px;
 }
 
 .profile-title {
@@ -95,6 +100,7 @@ body {
 	line-height: 50px;
 	color: #b87576;
 	text-transform: uppercase;
+	letter-spacing: .1rem;
 }
 
 .profile-subtitle {
@@ -105,46 +111,45 @@ body {
 	text-transform: uppercase;
 }
 
+.section {
+	margin-bottom: 20px;
+}
+
 .section-title {
 	font-weight: 500;
-	font-size: 16px;
-	line-height: 50px;
+	font-size: 14px;
+	line-height: 40px;
 	color: #829985;
 	text-transform: uppercase;
-
-
+	letter-spacing: .1rem;
 }
 
-.column-right {
-	background-color: #fff
-}
-
-.column-left {
-	background-color: #f9f7f9;
+.sub-section {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .footer {
 	background-color: #dcdfda;
-	border: 1px solid red;
 }
 
 .footer-list {
 	list-style: none;
 	display: flex;
-	justify-content: flex-start;
-	align-items: baseline;
-
+	justify-content: center;
+	align-items: center;
 }
 
-.footer-item {
+.footer-link {
 	padding: 0 50px 0 0;
 	font-weight: 400;
 	font-size: 14px;
+	line-height: 80px;
 	color: #6d6c6c;
 }
 
-.round {
-	border-radius: 100px;
+.round-border-photo {
+	border-radius: 300px;
 	border: 7px solid #829985;
 }
 
@@ -158,6 +163,6 @@ body {
 	color: #829985;
 }
 
-.work-item {
-	margin-bottom: 10px;
+html {
+	scroll-behavior: smooth;
 }
