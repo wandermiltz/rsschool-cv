@@ -6,52 +6,125 @@ body {
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 28px;
 	color: #464646;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-.header-title {
-	font-family: 'Inter', sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 36px;
-	line-height: 16px;
-	color: darkslategrey;
-
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.header-subtitle {
+.section {
+	width: 50%;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-link {
+	padding: 0 20px;
+	line-height: 20px;
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	font-size: 14px;
+	color: #6d6c6c;
+	text-decoration: none;
+	transition: .3s;
+	text-transform: uppercase;
+
+}
+
+.nav-link:hover {
+	color: #ffffff
+}
+
+.header {
+	border: 1px solid red;
+	background-color: #dcdfda
+}
+
+.main {
+	border: 1px solid red;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.profile-title {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 500;
 	font-size: 24px;
 	line-height: 12px;
-	color: darkslategrey;
+	color: #b87576;
+	text-transform: uppercase;
+}
+
+.profile-subtitle {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 12px;
+	color: #6d6c6c;
+	text-transform: uppercase;
+
+
 }
 
 .section-title {
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 28px;
-}
-
-.contact {
-	font-family: 'Inter', sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 22px;
-	line-height: 28px;
-	color: #464646;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 12px;
+	color: #829985;
+	text-transform: uppercase;
 }
 
 .contact-link {
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 28px;
 	color: #464646;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.contact-link:hover {
+	text-decoration: underline;
+}
+
+.column-right {
+	background-color: #fff
+}
+
+.column-left {
+	background-color: #f9f7f9;
+}
+
+.footer {
+	background-color: #dcdfda;
+}
+
+.round {
+	border-radius: 100px;
+	border: 7px solid #829985;
 }
