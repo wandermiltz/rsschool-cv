@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: #464646;
+}
+
+.header-title {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 16px;
+	color: darkslategrey;
+
+}
+
+.header-subtitle {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 12px;
+	color: darkslategrey;
+}
+
+.section-title {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.contact {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 28px;
+	color: #464646;
+}
+
+.contact-link {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: #464646;
+}
