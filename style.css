@@ -37,7 +37,7 @@ body {
 	background-color: #f9f7f9;
 	width: 40%;
 	padding: 0 60px 0 50px;
-	line-height: 38px;
+	line-height: 40px;
 }
 
 .header {
@@ -75,14 +75,15 @@ body {
 }
 
 .link {
-	color: #6d6c6c;
+	color: #518ecf;
 	text-decoration: none;
 	transition: .3s;
+	font-weight: 400;
 }
 
 .link:hover {
 	text-decoration: underline;
-	color: #c09e7e
+	color: #405c98;
 }
 
 .photo-container {
