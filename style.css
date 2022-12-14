@@ -30,14 +30,13 @@ body {
 .column-right {
 	background-color: #fff;
 	width: 60%;
-	padding: 0 230px 0 50px;
+	padding: 0 120px 0 60px;
 }
 
 .column-left {
 	background-color: #f9f7f9;
 	width: 40%;
-	padding: 0 60px 0 50px;
-	line-height: 40px;
+	padding: 0 80px;
 }
 
 .header {
@@ -86,29 +85,22 @@ body {
 	color: #405c98;
 }
 
-.photo-container {
-	margin-top: 50px;
-	margin-bottom: 20px;
-}
-
 .profile-container {
-	margin-top: 50px;
-	margin-bottom: 20px;
+	margin-top: 30px;
 }
 
 .profile-title {
 	font-weight: 500;
-	font-size: 24px;
-	line-height: 50px;
+	font-size: 32px;
+	line-height: 60px;
 	color: #b87576;
 	text-transform: uppercase;
-	letter-spacing: .1rem;
 }
 
 .profile-subtitle {
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 20px;
+	line-height: 30px;
 	color: #6d6c6c;
 	text-transform: uppercase;
 }
@@ -121,51 +113,62 @@ body {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 40px;
-	color: #829985;
+	color: #fff;
+	background-color: #a5b5a6;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	border-radius: 40px;
 }
 
 .sub-section {
-	margin-bottom: 15px;
+	margin-bottom: 20px;
+}
+
+.sub-section-title {
+	font-weight: 500;
+	color: #758f79;
 }
 
 .footer {
 	background-color: #dcdfda;
 }
 
-.footer-list {
-	list-style: none;
+.footer-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+.footer-item {
+	display: flex;
+}
+
 .footer-link {
-	padding: 0 50px 0 0;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 70px;
+	text-decoration: none;
 	color: #6d6c6c;
+	padding: 0 30px 0 0;
+	line-height: 70px;
 }
 
-.round-border-photo {
+.footer-link:hover {
+	color: #518ecf;
+	text-decoration: underline;
+	transition: .3s;
+}
+
+.photo-container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.border-photo {
 	border-radius: 300px;
-	border: 7px solid #829985;
-}
-
-.text-bold-pink {
-	font-weight: 500;
-	color: #b87576;
-}
-
-.text-bold-green {
-	font-weight: 500;
-	color: #829985;
-}
-
-html {
-	scroll-behavior: smooth;
+	border: 7px solid #758f79;
 }
 
 .contact-container {
@@ -177,4 +180,18 @@ html {
 	margin-right: 20px;
 	width: 25px;
 	height: 25px;
+}
+
+.text-decorate {
+	font-weight: 500;
+	color: #b87576;
+}
+
+.experience-title {
+	font-weight: 500;
+	color: #b87576;
+}
+
+html {
+	scroll-behavior: smooth;
 }
