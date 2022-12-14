@@ -30,7 +30,7 @@ body {
 .column-right {
 	background-color: #fff;
 	width: 60%;
-	padding: 0 120px 0 60px;
+	padding: 0 180px 0 30px;
 }
 
 .column-left {
@@ -86,14 +86,14 @@ body {
 }
 
 .profile-container {
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 .profile-title {
 	font-weight: 500;
 	font-size: 32px;
 	line-height: 60px;
-	color: #b87576;
+	color: #b38889;
 	text-transform: uppercase;
 }
 
@@ -120,6 +120,10 @@ body {
 	padding-left: 30px;
 	margin-bottom: 20px;
 	border-radius: 40px;
+}
+
+.section-content {
+	padding-left: 30px
 }
 
 .sub-section {
@@ -187,9 +191,12 @@ body {
 	color: #b87576;
 }
 
-.experience-title {
+.work-title {
 	font-weight: 500;
-	color: #b87576;
+	background-color: #b38889;
+	color: #fff;
+	padding-left: 30px;
+	border-radius: 40px;
 }
 
 html {
