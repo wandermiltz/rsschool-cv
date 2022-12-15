@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<div>
+	<div class="body-container">
 		<header class="header">
 			<div class="container">
 				<nav class="nav">
@@ -45,24 +45,31 @@
 		<main class="main">
 			<div class="container main-container">
 				<div class="column-left">
-					<div class="photo-container">
-						<img class="border-photo" src="assets/my_photo_cv.jpg" alt="my photo" width="300" height="300">
-					</div>
+					<section class="section">
+						<div class="profile-container">
+							<img class="border-photo" src="assets/my_photo_cv.jpg" alt="my photo" width="300" height="300">
+							<div>
+								<h1 class="profile-title">Olga Berezka</h1>
+								<p class="job-title">QA Automation Engineer Web Developer</p>
+							</div>
+
+						</div>
+					</section>
 					<section class="section" id="contacts">
 						<h2 class="section-title">Contacts</h2>
-						<ul class="list list-non-bullet">
+						<ul class="list-non-bullet">
 							<li class="contact-container">
 								<img src="assets/telegram.svg" alt="telegram_icon" class="contact-icon">
-								<a class="link" href="https://t.me/wandermiltz" target="_blank">@wandermiltz</a>
+								<a class="link" href="https://t.me/wandermiltz" target="_blank">wandermiltz</a>
 							</li>
 							<li class="contact-container">
 								<img src="assets/discord.svg" alt="discord_icon" class="contact-icon">
 								<a class="link" href="https://discord.com/channels/@OlgaBerezka#4805" target="_blank">
-									@OlgaBerezka#4805</a>
+									OlgaBerezka&#35;4805</a>
 							</li>
 							<li class="contact-container">
 								<img src="assets/mail.svg" alt="mail_icon" class="contact-icon">
-								koltsovaolga5@gmail.com
+								koltsovaolga5&#64;gmail.com
 							</li>
 							<li class="contact-container">
 								<img src=" assets/location.svg" alt="location_icon" class="contact-icon">
@@ -72,7 +79,7 @@
 					</section>
 					<section class="section" id="hard_skills">
 						<h2 class="section-title">Hard Skills</h2>
-						<ul class="list list-non-bullet">
+						<ul class="list-non-bullet">
 							<li>
 								<span class="text-decorate">Web Development </span>
 								JS, TS, HTML, CSS
@@ -101,7 +108,7 @@
 					</section>
 					<section class="section" id="languages">
 						<h2 class="section-title">Languages</h2>
-						<ul class="list list-non-bullet">
+						<ul class="list-non-bullet">
 							<li>
 								<span class="text-decorate">English </span>
 								Upper-Intermediate
@@ -118,13 +125,9 @@
 					</section>
 				</div>
 				<div class="column-right">
-					<section class="section profile-container">
-						<h1 class="profile-title">Olga Berezka</h1>
-						<p class="profile-subtitle">QA Automation Engineer, Web Developer</p>
-					</section>
 					<section class="section" id="about_me">
 						<h2 class="section-title">About me</h2>
-						<p class="section-content">
+						<p>
 							I’m a QA Automation engineer with 3 years of experience using Cypress JS framework.
 							I used to automate UI, API, and E2E test scenarios and create full automation systems from scratch.
 							For now, I plan to switch my specialisation to web development.
@@ -132,7 +135,7 @@
 					</section>
 					<section class="section" id="work_experience">
 						<h2 class="section-title">Work Experience</h2>
-						<p class="work-title">QA Automation Lead (Cypress JS), Noveo, February 2020 – 2022</p>
+						<p class="job-title">QA Automation Lead (Cypress JS), Noveo, February 2020 – 2022</p>
 						<div class="section-content">
 							<p>Web applications for:</p>
 							<ol class="list">
@@ -141,7 +144,7 @@
 								<li>IIoT system</li>
 							</ol>
 						</div>
-						<p class="work-title">QA Engineer, Arcadia, September 2018 – January 2020</p>
+						<p class="job-title">QA Engineer, Arcadia, September 2018 – January 2020</p>
 						<div class="section-content">
 							<p>Web application for the Airline booking system</p>
 						</div>
@@ -168,67 +171,51 @@
 
 					<section class="section" id="education">
 						<h2 class="section-title">Education</h2>
-						<ul class="list list-non-bullet">
+						<p class="section-subtitle">Projects</p>
+						<ul class="list">
 							<li>
-								<span class="section-sub-title">Projects</span>
+								<a class="link" href="https://github.com/wandermiltz/rsschool-cv" target="_blank">
+									GitHub: rsschool-CV</a>
 							</li>
 							<li>
-								<ul class="list">
-									<li>
-										<a class="link" href="https://github.com/wandermiltz/rsschool-cv" target="_blank">
-											GitHub: rsschool-CV</a>
-									</li>
-									<li>
-										<a class="link" href="https://github.com/wandermiltz/sedona" target="_blank">
-											GitHub: sedona-hotels</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<span class="section-sub-title">Courses</span>
-							</li>
-							<li>
-								<ul class="list">
-									<li>
-										<a class="link" href="https://rs.school/js-stage0/" target="_blank">
-											RS School: JavaScript/Front-end. Stage 0 (2022)</a>
-									</li>
-									<li>
-										<a class="link" href="https://www.udemy.com/course/javascript-for-qa-engineers-and-sdets/"
-											target="_blank">
-											Udemy: JavaScript for QA Engineers and SDETs (2020)</a>
-									</li>
-									<li>
-										<a class="link"
-											href="https://www.udemy.com/course/cypress-web-automation-testing-from-zero-to-hero/"
-											target="_blank">
-											Udemy: Cypress: Web Automation Testing from Zero to Hero (2019)</a>
-									</li>
-									<li>
-										<a class="link"
-											href="https://testautomationu.applitools.com/learningpaths.html?id=web-ui-javascript-path"
-											target="_blank">
-											Test Automation University: Web UI JavaScript Path (2019)</a>
-									</li>
-									<li>
-										<a class="link" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">
-											HTML Academy: HTML и CSS (2016)</a>
-									</li>
-								</ul>
+								<a class="link" href="https://github.com/wandermiltz/sedona" target="_blank">
+									GitHub: sedona-hotels</a>
 							</li>
 						</ul>
-						<ul class="list list-non-bullet">
+						<p class="section-subtitle">Courses</p>
+						<ul class="list">
 							<li>
-								<span class="section-sub-title">Higher Education </span>
+								<a class="link" href="https://rs.school/js-stage0/" target="_blank">
+									RS School: JavaScript/Front-end. Stage 0 (2022)</a>
 							</li>
 							<li>
-								<ul class="list">
-									<li>
-										Saint-Petersburg State University of Industrial Technologies and Design, Engineer (2007-2012)
-									</li>
-								</ul>
+								<a class="link" href="https://www.udemy.com/course/javascript-for-qa-engineers-and-sdets/"
+									target="_blank">
+									Udemy: JavaScript for QA Engineers and SDETs (2020)</a>
+							</li>
+							<li>
+								<a class="link" href="https://www.udemy.com/course/cypress-web-automation-testing-from-zero-to-hero/"
+									target="_blank">
+									Udemy: Cypress: Web Automation Testing from Zero to Hero (2019)</a>
+							</li>
+							<li>
+								<a class="link"
+									href="https://testautomationu.applitools.com/learningpaths.html?id=web-ui-javascript-path"
+									target="_blank">
+									Test Automation University: Web UI JavaScript Path (2019)</a>
+							</li>
+							<li>
+								<a class="link" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">
+									HTML Academy: HTML и CSS (2016)</a>
 							</li>
 						</ul>
+						<p class="section-subtitle">Higher Education </p>
+						<ul class="list list-non-bullet">
+							<li>
+								Saint-Petersburg State University of Industrial Technologies and Design, Engineer (2007-2012)
+							</li>
+						</ul>
+
 					</section>
 				</div>
 			</div>
@@ -239,8 +226,7 @@
 					<img src="assets/rs_school_js.svg" alt="rs_school" width="80" height="80"></a>
 				<a class="footer-link footer-item" href="https://github.com/wandermiltz" target="_blank">
 					<img src="assets/github.svg" alt="github" width="30" height="30"></a>
-				<a class="footer-link footer-item" href="https://t.me/wandermiltz" target="_blank">Olga Berezka</a>
-				<span class="footer-item">&#64;2022</span>
+				<span class="footer-item">&#169; 2022 Olga Berezka</span>
 			</div>
 		</footer>
 	</div>
