@@ -31,7 +31,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 60%;
-	padding: 0px 120px 40px 40px;
+	padding: 0px 100px 40px 40px;
 	background-color: #f9f7f9;
 	border-right-color: #d2cdd2;
 	border-right-style: solid;
@@ -214,6 +214,10 @@ body {
 	line-height: 40px;
 	font-weight: 500;
 	color: #b87576;
+}
+
+.code {
+	font-size: 14px;
 }
 
 html {
