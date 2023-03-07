@@ -219,12 +219,12 @@
 				<section class="section" id="code_example">
 					<h2 class="section-title">Code Example</h2>
 					<pre><code class="code">// creates list of objects from CSV file:
-Cypress.Commands.add('rowsToObjects', (downloadedFileData) => {
- const csvData = downloadedFileData.split('\n').filter(e => !!e)
+Cypress.Commands.add('rowsToObjects', (downloadedFileData) =&gt; {
+ const csvData = downloadedFileData.split('\n').filter(e =&gt; !!e)
  const headers = csvData[0].split(';')
- const dataRows = csvData.slice(1).map(e => e.split(';'))
- const objList = dataRows.map(row => {
-  return headers.reduce((prev, headerName, idx) => {
+ const dataRows = csvData.slice(1).map(e =&gt; e.split(';'))
+ const objList = dataRows.map(row =&gt; {
+  return headers.reduce((prev, headerName, idx) =&gt; {
    prev[headerName] = row[idx]
    return prev
   }, {})
